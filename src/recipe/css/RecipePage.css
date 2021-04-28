@@ -1,0 +1,33 @@
+.recipe-img {
+    height: 16rem;
+    object-fit: cover;
+}
+.share-wrap {
+    text-align: right;
+    margin-top: -34px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), transparent);
+}
+.info-item {
+    display: flex;
+    flex-direction: row;
+}
+.info-item dt {
+    width: 8rem;
+}
+.info-item dd {
+    flex: 1;
+}
+.comment-item {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.comment-item:last-child {
+    border-bottom: 0;
+}
+.comment-item .media-heading {
+    font-size: 14px;
+}
+.comment-item .media-heading small {
+    font-size: 12px;
+}

@@ -1,0 +1,25 @@
+
+
+1. each recipe can have mutiple tags so the relationship is many to many
+    Recipe <--  HasTag --> RecipeTag
+2. each ingredient can have mutiple category, many to many
+    eg. egg can be in both dairy category and baking category
+    Ingredient<--  InCategory --> Category
+    this may need change according to our dataset
+3. the relationship between user and recipe is many to many on bookmark
+    User <--  Bookmark --> Recipe
+4. the relationship between user and recipe on ownership is one to many
+5. many to many
+ Recipe <--  UseIngredient --> Ingredient
+
+
+design choice:
+1. There are two ways to implement an one to one relationship. First way is use 2 tables and
+the second way is add the second table into the first one as a field. The difference is if the 
+most of the field in second table can be null, it saved storage space rather than combine into one table
+where you have a lot of null field.
+
+
+
+Question:
+1. do one ingredient have mutiple category in our dataset?

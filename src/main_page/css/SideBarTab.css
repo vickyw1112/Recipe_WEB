@@ -1,0 +1,27 @@
+.side-tabs {
+    margin-top: 15px;
+    font-size: medium;
+    justify-content: space-around;
+}
+
+.sidebar-item {
+    margin-top: 20px;
+}
+
+.tag-item {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.sidebar-bg {
+    margin-bottom: 20px;
+    width: 98%;
+}
+
+.sider-badge {
+    margin-left: 5px;
+}
+
+.tab-content {
+    width: 100%;
+}

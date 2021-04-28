@@ -1,0 +1,131 @@
+.navbar {
+    min-height: 6vh !important;
+}
+
+/*
+    the overall height is 100%vh
+    didn't work when sqeeze the window
+*/
+
+/*
+    due to the flex box, the main body will have the same height as
+    the sider
+*/
+.main-body {
+    background-color: #dcdcdc;
+    padding: 10px;
+}
+
+.main-header {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.main-pignation {
+    margin: 20px auto;
+}
+
+.sider-toggle {
+    position: absolute;
+    top: calc(100vh / 2 - 60px);
+    right: -20px;
+    width: 20px;
+    height: 60px;
+    z-index: 99;
+    background-color: #ffffff;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.sider-toggle-expand:after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: calc(50% - 4px);
+    left: 30%;
+    border: 1px solid #ccc;
+    border-width: 1px 0 0 1px;
+    transform: rotate(-45deg);
+}
+
+.sider-toggle-collapse:after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: calc(50% - 4px);
+    left: 20%;
+    border: 1px solid #ccc;
+    border-width: 0 1px 1px 0;
+    transform: rotate(-45deg);
+}
+
+/* STARTING CSS BOFEI */
+.side-bar {
+    width: 20%;
+    position: relative;
+}
+
+.side-bar .side-bar-content,
+.side-bar .side-bar-content * {
+    overflow: hidden;
+}
+
+.main-body {
+    width: 80%;
+}
+
+.side-bar,
+.main-body {
+    transition: width 300ms ease-in-out;
+}
+
+.side-bar.custom-collapse {
+    width: 0;
+}
+
+.side-bar.custom-collapse + .main-body {
+    width: 100%;
+}
+
+.side-bar,
+.side-bar *,
+.sider-toggle {
+    background-color: #031529;
+    color: #cccccc !important;
+}
+
+.side-bar .nav-link {
+    color: #031529 !important;
+}
+
+.side-bar .nav-tabs .nav-link.active {
+    background-color: #188fff;
+}
+
+.side-bar .nav-link:not(.active) {
+    background-color: #ccc !important;
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+}
+
+.side-bar-content {
+    padding: 0 !important;
+}
+
+/* ENDING   CSS BOFEI */
+
+.navbar {
+    font-size: x-large;
+}
+.navbar-brand {
+    font-size: 1.2em !important;
+}
+
+.main-page-heading {
+    margin-top: 400px;
+    margin-left: 800px;
+}

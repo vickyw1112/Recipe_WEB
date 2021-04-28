@@ -1,0 +1,104 @@
+.brand.navbar-brand {
+    background: transparent;
+}
+
+
+.side-bar  {
+    min-height: 80vh;
+}
+
+.badge-light {
+    background-color: #03152a;
+}
+
+.ant-input-search-icon::before,
+.ant-input-search-icon::after {
+    display: none;
+}
+
+.fp {
+    background-color: transparent;
+    padding: 10px 30px
+}
+
+.fp-card,
+.col {
+    margin: 0;
+}
+
+.col:first-child {
+    padding-left: 0;
+}
+.col:last-child {
+    padding-right: 0;
+}
+
+.row {
+    padding-bottom: 5px;
+}
+
+.col {
+    padding: 5px 7.5px;
+    cursor: pointer;
+    transition: transform 150ms ease-out;
+}
+
+.col:hover {
+    transform: translateY(-10px);
+}
+
+
+#disqus_thread {
+    padding: 0 1em
+}
+
+.user-setting-content {
+    background-color: transparent;
+}
+
+.no-bookmark {
+    text-align: center;
+    margin-top: 400px;
+    font-size: 40px;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.lead {
+    font-size: 32px;
+}
+
+.my-2 + p {
+    font-size: 24px;
+}
+
+.email-settings {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.side-tabs.nav.nav-tabs {
+    border-color: #6c757d;
+}
+
+.share-container {
+    margin-top: 30px;
+}
+
+
+.social_share {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.share-text {
+    font-size: 24px;
+}

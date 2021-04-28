@@ -1,0 +1,20 @@
+.login-form {
+    width: 20%;
+    margin: 100px auto;
+}
+
+.login-button {
+    margin-top: 40px;
+    margin-left: 170px;
+}
+
+.login-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.login-alert {
+    margin: 0 auto;
+    width: 50%;
+}

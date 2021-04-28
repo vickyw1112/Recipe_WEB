@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SO YUMMY email notification
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" type="text/css" media="screen" href="style.css"> -->
+        <style>
+            .header {
+                margin-top: 50px;
+                max-width: 500px;
+                margin: 0 auto 0;
+                padding: 15px 15px;
+                /* TODO: change */
+                background: #027be3;
+            }
+
+            .header-title {
+                font-size: 25px;
+                color: white;
+                margin-left: 10px;
+                text-decoration: none;
+            }
+
+            .main-body {
+                margin: 0 auto 0;
+                padding: 15px 15px;
+                max-width: 500px;
+                /* TODO: change */
+                background: rgb(248, 249, 250);
+            }
+
+            .btn {
+                text-decoration: none;
+                color: white;
+                padding: 10px 0;
+                border-radius: 5px;
+                display: block;
+                background: #21ba45;
+            }
+            .verify-btn-outter {
+                text-align: center;
+                padding: 0 35px;
+                margin-bottom: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <a  class="header-title" style="color: #FFFFFF !important" href="{{ domain }}">SO YUMMY!</a>
+        </div>
+        <div class="main-body">
+            <h1>
+                {{ title }}
+            </h1>
+            <br>
+            <p>
+                Hi,
+            </p>
+            <p>
+                Thanks for registering an account with SO YUMMY.
+            </p>
+            <div class="verify-btn-outter">
+                <a class="btn" href="{{ verify_link }}" role="button">
+                    Verify 
+                </a>
+            </div>
+            <p>
+                If the button doesn't work, copy this link to your browser: 
+                <a href="{{ verify_link }}" role="button">
+                    Verify link 
+                </a>
+            </p>
+            <br>
+        </div>
+    </body>
+</html>

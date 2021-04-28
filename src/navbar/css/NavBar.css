@@ -1,0 +1,10 @@
+/*
+    the width need to change to relative in the future
+*/
+.brand {
+    background-color: antiquewhite;
+    width: 19.5%;
+}
+.navbar-button {
+    margin-left: 10px;
+}

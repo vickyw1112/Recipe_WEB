@@ -1,0 +1,25 @@
+.user-settings-container {
+    height: 94vh;
+}
+.logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.site-layout-background {
+    padding: 24px;
+    min-height: 360px;
+}
+
+.user-settings-content {
+    margin: 0 16px;
+}
+
+.usersetting-heading {
+    margin-top: 400px;
+    margin-left: 800px;
+}

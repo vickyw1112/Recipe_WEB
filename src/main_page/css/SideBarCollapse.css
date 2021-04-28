@@ -1,0 +1,9 @@
+.choice-item {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.choice-type {
+    width: 100%;
+    border: none;
+}
